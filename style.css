@@ -818,7 +818,7 @@ html {
             }
 
 
-            @media (max-width: 1200px) {
+            @media (max-width: 768px) {
                 .container-footer {
                     display: inline-block;
                     flex-direction: column;
@@ -828,3 +828,40 @@ html {
                     align-items: center;
 
                 }
+
+                @media (max-width: 768px) {
+                    .container-header {
+                        display: inline-block;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        padding: auto;
+                        max-width: auto;
+                        max-height: auto;
+                        align-items: center;
+        
+                    }
+        
+                    @media (max-width: 768px) {
+                        .container-video {
+                            display: inline-block;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding: auto;
+                            max-width: auto;
+                            max-height: auto;
+                            align-items: center;
+                        }
+        
+                    }
+        
+        
+                    @media (max-width: 768px) {
+                        .container-footer {
+                            display: inline-block;
+                            flex-direction: column;
+                            justify-content: flex-end padding: auto;
+                            max-width: auto;
+                            max-height: auto;
+                            align-items: center;
+        
+                        }
